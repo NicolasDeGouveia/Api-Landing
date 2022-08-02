@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const MenuMobile = () => {
   return (
     <motion.nav
-      initial={{ y: 800 }}
-      animate={{ y: 680 }}
+      initial={{ y: 100 }}
+      animate={{ y: 0 }}
       transition={{ duration: 1 }}
-      exit={{ y: 800 }}
-      className="w-full lg:hidden flex flex-col justify-between items-center bg-black/70 py-4 rounded-t-3xl fixed"
+      exit={{ y: 100 }}
+      className="w-full lg:hidden flex flex-col justify-between items-center bg-black/70 py-4 rounded-t-3xl fixed bottom-0"
     >
       <ul className="flex ml-8">
         <li className={styles.li}>Features</li>
