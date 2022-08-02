@@ -30,10 +30,10 @@ const Main = () => {
             </div>
           </div>
           <div
-            className={`${styles.divbar} bottom-[34.3rem] md:bottom-[26.3rem] xl:bottom-24 lg:left-[392px]`}
+            className={`${styles.divbar} bottom-[28.3rem] md:bottom-[26.3rem] xl:bottom-24 lg:left-[392px]`}
           />
           {/* Second Card */}
-          <div className={`${styles.card} top-12 `}>
+          <div className={`${styles.card} top-12  `}>
             <div className={styles.img}>
               <img src={records} alt="" />
             </div>
@@ -47,7 +47,7 @@ const Main = () => {
             </div>
           </div>
           <div
-            className={`${styles.divbar}  bottom-[10.8rem] md:bottom-[9.8rem] lg:bottom-24 lg:right-[392px]`}
+            className={`${styles.divbar}  bottom-[9.8rem] md:bottom-[9.8rem] lg:bottom-24 lg:right-[392px]`}
           />
           {/* Third Card */}
           <div className={`${styles.card} top-24`}>
@@ -74,7 +74,7 @@ const styles = {
   text: "py-8",
   h3: "font-extrabold text-lg pb-4",
   p: "text-[#bfbfbf] text-lg font-medium",
-  divbar: "absolute w-2 lg:w-8 h-20 lg:h-10 xl:h-2 bg-[#2acfcf]",
+  divbar: "absolute w-2 lg:w-8 h-60 lg:h-10 xl:h-2 bg-[#2acfcf]",
 };
 
 export default Main;
