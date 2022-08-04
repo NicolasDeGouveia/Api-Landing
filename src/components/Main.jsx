@@ -1,10 +1,16 @@
+import { useContext } from "react";
 import recognition from "../assets/icon-brand-recognition.svg";
 import records from "../assets/icon-detailed-records.svg";
 import custom from "../assets/icon-fully-customizable.svg";
+import LinksContext from "../utils/LinksContext";
+import Results from "./Results";
+
 const Main = () => {
+  const { result } = useContext(LinksContext);
   return (
     <section className="bg-[#f3f4f6] section-padding pb-40">
       <div className="section-container">
+        <Results inputResult={result} />
         <div className="flex flex-col items-center text-center pt-4 lg:pt-8 mb-24">
           <h2 className="text-2xl lg:text-3xl font-extrabold mb-4">
             Advanced Statistics
